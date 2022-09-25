@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dinis",
+      "login": "log",
+      "password": "123"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Ivan",
+      "phone": "89258574252",
+      "id": 7
+    },
+    {
+      "name": "Denis",
+      "phone": "89254374852",
+      "id": 9
+    },
+    {
+      "name": "Alex",
+      "phone": "85712679420",
+      "id": 10
+    },
+    {
+      "name": "Andrey",
+      "phone": "87451565238",
+      "id": 11
+    },
+    {
+      "name": "Nikolay",
+      "phone": "87597857881",
+      "id": 12
+    },
+    {
+      "name": "Maria",
+      "phone": "89588978125",
+      "id": 13
+    }
+  ]
+}

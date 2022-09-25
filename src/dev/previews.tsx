@@ -1,10 +1,17 @@
 import React from 'react';
-import { Previews } from '@react-buddy/ide-toolbox';
-import { PaletteTree } from './palette';
+import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox';
+import {PaletteTree} from './palette';
+import EnhancedTable from "../pages/Contact/Contact";
 
 const ComponentPreviews = () => {
     return (
-        <Previews palette={<PaletteTree />}>
+        <Previews palette={<PaletteTree/>}>
+            <ComponentPreview path="/EnhancedTable">
+                <EnhancedTable/>
+            </ComponentPreview>
+            <ComponentPreview path="/PaletteTree">
+                <PaletteTree/>
+            </ComponentPreview>
         </Previews>
     );
 };

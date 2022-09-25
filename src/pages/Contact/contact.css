@@ -1,0 +1,48 @@
+.containerBtn{
+    width: 100%;
+    text-align: center;
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.36);
+    boxShadow: 24;
+    padding: 50px;
+}
+
+.modalTitle{
+    text-align: center;
+}
+
+.input div:before{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.input div:hover:not(.Mui-disabled):before{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+}
+
+.input label{
+    color: white;
+}
+
+.input input{
+    color: white;
+}
+
+.inputMargin{
+    margin-right: 10px;
+}
+
+.inputBox{
+    margin-top: 30px;
+    text-align: center;
+}
+.addBtn{
+    margin-top: 30px;
+}
